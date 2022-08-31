@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <ul class="menu">
+            <li class="nav__item"><a href="" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#welcome-section" class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+        </ul>
+        <div class="theme-toggler">
+            <li class="toggler-moon active"><img src="./img/moon.svg" alt=""></li>
+            <li class="toggler-sun"><img src="./img/sun.svg" alt=""></li>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <section class="welcome-section" id="welcome-section">
+            <div class="welcome-text-wrapper">
+                <h1 class="welcome-title">Elizaveta Ziulkova</h1>
+                <p class="welcome-descr">a web-developer</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects container">
+            <h2 class="projects__title">These are some of my projects</h2>
+            <div class="projects__grid">
+                <div class="img-filter">
+                    <img class="grid__img" src="./img/portfolio-maya.png" alt="">
+                </div>
+                <p class="grid__gescr">
+                    The web-site page which was created with CSS, HTML and JS technologies.
+                <ul class="grid__list">
+                    <li class="knowleges__item">Gird & flex layouts</li>
+                    <li class="knowleges__item">Modal windows, interactive elements which was created with JavaScript
+                    </li>
+                    <li class="knowleges__item">Dynamic slider (Swiper-Slider JS library)</li>
+                    <li class="knowleges__item">Fully responsible design (PC/mobile)</li>
+                </ul>
+                </p>
+                <p class="grid__link">
+                    <a href="https://github.com/kriachers/maya" target="_blank">GitHub link</a>
+                </p>
+                <p class="grid__link">
+                    <a href="https://kriachers.github.io/maya/" target="_blank">Project link</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="skills__header">
+                My skills:
+            </h2>
+
+            <div class="skills__grid project-tile">
+                <div class="skills__item">
+                    <img src="./img/skills/html.svg" alt="" class="skills-item__img">
+                    <p class="skills-item__text">HTML5</p>
+                </div>
+
+                <div class="skills__item">
+                    <img src="./img/skills/css3.svg" alt="" class="skills-item__img">
+                    <p class="skills-item__text">CSS3</p>
+                </div>
+
+                <div class="skills__item">
+                    <img src="./img/skills/sass.svg" alt="" class="skills-item__img">
+                    <p class="skills-item__text">SASS</p>
+                </div>
+
+                <div class="skills__item">
+                    <img src="./img/skills/javascript.svg" alt="" class="skills-item__img">
+                    <p class="skills-item__text">JavaScript</p>
+                </div>
+
+                <div class="skills__item">
+                    <img src="./img/skills/git.svg" alt="" class="skills-item__img">
+                    <p class="skills-item__text">Git</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="knowleges">
+            <h2 class="knowleges__descr">My knowleges:</h2>
+            <div class="knowleges__wrapper">
+                <ul class="knowleges__list">
+                    <li class="knowleges__item">Strong knowledge of HTML, JS, and CSS</li>
+                    <li class="knowleges__item">CSS3: Grid, Flex, Adaptive and Responsible design</li>
+                    <li class="knowleges__item">Experience with SASS </li>
+                    <li class="knowleges__item">Experience with Git </li>
+                    <li class="knowleges__item">Strong collaboration skills, passion for standards, and keen on
+                        sharing knowledge and learning new techniques</li>
+                    <li class="knowleges__item">Understanding of the principles of User Experience (UX) analysis and
+                        design</li>
+                    <a id='profile-link' href="https://github.com/kriachers/" target="_blank">GitHub Account</a>
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p class="footer__descr">This is a web-site portfolio. All the projects was made by me.</p>
+        <p class="footer__copyright">© Created by Elizaveta Ziulkova</p>
+    </footer>
+
+</body>
+
+</html>
