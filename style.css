@@ -233,6 +233,10 @@ h2 {
 
 /* GRID */
 
+.grid__wrapper {
+    display: flex;
+}
+
 
 .projects__grid {
     max-width: 400px;
